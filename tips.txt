@@ -1,0 +1,28 @@
+CSS
+
+<font>                  atributos da fonte        
+<center>                Centraliza conteudo
+
+-------------------------------------
+Inline CSS
+estilo em linha, diretamente na tag
+-------------------------------------
+ <body style="background-color: aquamarine;">
+
+-------------
+Internal CSS
+-------------
+Dentro da tag <head> voce abre uma tag <style>
+
+ <!--CSS INTERNAL-->
+    <style>
+
+      body{
+        background-color: #b4f2e1;
+      }
+
+      hr{
+        background-color: #f37121;
+      }
+
+    </style>

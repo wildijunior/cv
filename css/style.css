@@ -1,0 +1,22 @@
+body {
+    background-color: #ddf3f5;
+  }
+
+  hr {
+    background: none;
+    border-color: gray;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 20%;
+  }
+
+h1,h2,h3,h4{
+    font-size: 20px;
+    color: #01a9b4;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+  img {
+    height: 200px;
+  }
