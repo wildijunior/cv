@@ -1,191 +1,238 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!--EXTERNAL CSS-->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comforter&family=Nunito&family=Pacifico&display=swap"
+    rel="stylesheet">
 
-  <title>Jr's Personal Site</title>
+  <link rel="stylesheet" href="globals.css">
+
+  <title>CSS Ex2</title>
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td>
-        <img src="images/profilepic.png" alt="wildi's profile picture" />
-      </td>
-      <td>
-        <h1>Wildi Jr.</h1>
-        <p>
-          <em>Front-End Developer<strong>&</strong>
-            <a href="https://grancursosonline.com.br">Quality Assurance Analyst</a></em>
-        </p>
 
-        <p>
-          I.T professional, passionate for technology. Working at Gran Cursos
-          Online as a QA making assurance the delivered code. <br />Freelancer
-          in web development, with huge knowledge in html 5, css 3, php,
-          mysql, js, jquery, automated tests, python, bootstrap. <br />Love
-          coffe, technology, games, EDM music, family, travel, soccer.
-        </p>
-      </td>
-    </tr>
+  <table align='center' cellspacing='20'>
+
+    <thead>
+      <tr>
+        <th colspan="20">
+          <img id="avatarImg" src="https://pbs.twimg.com/profile_images/1255108337915527171/TUKiaNix_400x400.jpg"
+            alt="img-avatar">
+        </th>
+      </tr>
+    </thead>
+    <tbody align='center'>
+      <tr>
+        <td>
+          <h1 id='heading'>Wildi Jr.</h1>
+          <span id='textinho'>Analista QA viciado em frontend</span>
+          <p>I.T professional, passionate for technology. <br>Working at Gran Cursos Online as a QA making assurance the delivered code.<br>
+            Freelancer in web development.<br>
+            Love coffe, technology, games, EDM music, family, travel, soccer.</p>
+        </td>
+      </tr>
+    </tbody>
+
   </table>
 
-  <hr size="3" noshade />
+  <hr>
 
-  <h3>Education & Courses</h3>
+  <table align='center' cellspacing='10'>
+    <thead>
+      <tr>
+        <th colspan="20">
+          <h1 id='subheading'>Hobbies</h1>
+        </th>
+      </tr>
+    </thead>
 
-  <ul>
-    <li>
-      CED.02 Guara 1 - School Graduation
-    </li>
+    <tbody>
+      <tr>
+        <td>
+          <img src="https://img.icons8.com/stickers/50/000000/code.png" />
+        </td>
+        <td>
+          <img
+            src="https://img.icons8.com/external-dreamstale-green-shadow-dreamstale/50/000000/external-gamepad-entertainment-dreamstale-green-shadow-dreamstale-2.png" />
+        </td>
+        <td>
+          <img
+            src="https://img.icons8.com/external-justicon-flat-justicon/50/000000/external-cooking-cooking-justicon-flat-justicon.png" />
+        </td>
+        <td>
+          <img
+            src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/50/000000/external-movie-cinema-kiranshastry-lineal-color-kiranshastry-2.png" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/50/000000/external-soccer-sports-flatart-icons-outline-flatarticons.png" />
+        </td>
+        <td>
+          <img
+            src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/50/000000/external-photography-art-and-design-wanicon-lineal-color-wanicon.png" />
+        </td>
+        <td>
+          <img src="https://img.icons8.com/office/50/000000/passport.png" />
+        </td>
+        <td>
+          <img src="https://img.icons8.com/emoji/60/000000/beach-with-umbrella.png" />
+        </td>
+      </tr>
+    </tbody>
 
-    <li>
-      UNIPLAN - I.T. System Analysis College Graduation
-    </li>
-
-    <li>
-      SCRUM FOUNDATION CERTIFICATED
-    </li>
-
-    <li>
-      Web Development Courses (Photoshop, DreamWeaver, Corel Draw, HTML, CSS,
-      Adobe Illustrator)
-    </li>
-
-    <li>
-      Oracle SQL Certificated
-    </li>
-
-    <li>
-      CRM Certificated by Oi Telecomunications
-    </li>
-
-    <li>
-      RobotCamp QA Ninja
-    </li>
-
-    <ul>
-      <li>
-        Python 3
-      </li>
-      <li>
-        Robot Framework
-      </li>
-      <li>
-        O.O
-      </li>
-    </ul>
-
-    <li>
-      Complete Web Development BootCamp 2020
-    </li>
-
-    <ul>
-      <li>
-        Atomic Design
-      </li>
-      <li>
-        HTML 5
-      </li>
-      <li>
-        CSS 3
-      </li>
-      <li>
-        bootstrap 4.5
-      </li>
-      <li>
-        Javascript ES6
-      </li>
-      <li>
-        The Document Object Model (DOM)
-      </li>
-      <li>
-        jQuery
-      </li>
-      <li>
-        NodeJS
-      </li>
-      <li>
-        ExpressJs
-      </li>
-      <li>
-        EJS
-      </li>
-       <li>
-        ReactJS
-      </li>
-      <li>
-        Databases: SQL, MongoDB, postgreSQL, MySql
-      </li>
-
-    </ul>
-    </li>
-
-  </ul>
-  <hr size="3" noshade />
-
-  <h3>Work Experience</h3>
-
-  <table cellspacing="20">
-    <tr>
-      <th>Dates</th>
-      <th>Work</th>
-    </tr>
-
-    <tr>
-      <td>2009-2010</td>
-      <td>Quality Assurance Analyst at Bearing Point</td>
-    </tr>
-
-    <tr>
-      <td>2011</td>
-      <td>Natural & Cobol Developer at CSC/Oi</td>
-    </tr>
-
-    <tr>
-      <td>2012-2013</td>
-      <td>
-        Java Developer at MC / GOV
-        <br />
-        Quality Assurance Analyst at MC / GOV
-      </td>
-    </tr>
-
-    <tr>
-      <td>2014-2016</td>
-      <td>
-        Devops at MEC/CAPES<br />Jenkins Automated Job Builds<br/>Create and Admin all dev environment<br/>Quality Assurance Analyst at MEC/CAPES<br />Automated
-        Programming Tests at MEC/CAPES
-      </td>
-    </tr>
-
-    <tr>
-      <td>2017-2019</td>
-      <td>
-        Web Developer at 3Con Informatica<br />Quality Assurance Analyst at
-        3Con Informatica<br />Automated Programming Tests at 3Con Informatica
-      </td>
-    </tr>
-
-    <tr>
-      <td>2020</td>
-      <td>Quality Assurance Analyst Pleno at Gran Cursos Online</td>
-    </tr>
   </table>
 
-  <br />
-  <hr size="3" noshade />
+  <hr>
 
-  <a href="abilities.html">Abilities</a>
-  <br />
-  <a href="contact.html">Contact Me</a>
-  <br />
-  <a href="hobbies.html">My Hobbies</a>
+
+  <table align='center' cellspacing='10'>
+    <thead>
+      <tr>
+        <th colspan="20">
+          <h1 id='subheading'>Work Experience</h1>
+        </th>
+      </tr>
+      <tr>
+        <th>Date</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2009 - 2012</td>
+        <td>Quality Assurance Analyst at CSC</td>
+      </tr>
+      <tr>
+        <td>2012 - 2014</td>
+        <td>Java Dev & QA at Ministerio das Comunicacoes</td>
+      </tr>
+      <tr>
+        <td>2014 - 2017</td>
+        <td>Devops at MEC/CAPES <br>
+          Jenkins Automated Job Builds<br>
+          Create and Admin all dev environment<br>
+          Quality Assurance Analyst at MEC/CAPES/FNDE<br>
+          Automated Programming Tests at MEC/CAPES/FNDE</td>
+      </tr>
+      <tr>
+        <td>2017 - 2019</td>
+        <td>Web Developer at 3Con Informatica</td>
+      </tr>
+      <tr>
+        <td>2020 - [...]</td>
+        <td>Senior QA at Grancursos Online</td>
+      </tr>
+    </tbody>
+    <tbody>
+
+
+    </tbody>
+
+  </table>
+
+  <hr>
+
+  <table align='center' cellspacing='10'>
+    <thead>
+      <tr>
+        <th colspan="20">
+          <h1 id='subheading'>Skills</h1>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>JS ES6</td>
+        <td>NodeJS</td>
+        <td>ReactJS</td>
+        <td>NextJS</td>
+
+      </tr>
+      <tr>
+        <td>Bootstrap</td>
+        <td>SASS</td>
+        <td>NodeJS</td>
+        <td>Express</td>
+      </tr>
+      <tr>
+        <td>MongoDB</td>
+        <td>Typescript</td>
+        <td>RestAssured</td>
+        <td>EJS</td>
+      </tr>
+      <tr>
+        <td>Jmeter </td>
+        <td>Docker</td>
+        <td>Jira</td>
+        <td>Rest API</td>
+      </tr>
+      <tr>
+        <td>React Native</td>
+        <td>Robot Framework</td>
+        <td>Python</td>
+        <td>Cucumber</td>
+      </tr>
+      <tr>
+        <td>Gherkin</td>
+        <td>CodeceptJS</td>
+        <td>Selenium</td>
+        <td>MySQL</td>
+      </tr>
+      <tr>
+        <td>COBOL</td>
+        <td>Natural DB2</td>
+        <td>PHP</td>
+        <td>JAVA</td>
+      </tr>
+
+    </tbody>
+
+  </table>
+
+  <hr>
+
+  <table align='center' cellspacing='10'>
+    <thead>
+      <tr>
+        <th colspan="20">
+          <h1 id='subheading'>Contact Me</h1>
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>
+          <a href="mailto:teste@teste.com">
+            <img src="https://img.icons8.com/plasticine/50/000000/apple-mail.png" />
+          </a>
+        </td>
+        <td>
+          <a href="https://twitter.com/wildij">
+            <img src="https://img.icons8.com/stickers/50/000000/twitter.png" />
+          </a>
+        </td>
+        <td>
+          <a href="https://instagram.com/090jr">
+            <img src="https://img.icons8.com/stickers/50/000000/instagram-new--v1.png" />
+          </a>
+        </td>
+      </tr>
+
+    </tbody>
+
+  </table>
+
 </body>
 
 </html>
